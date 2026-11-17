@@ -53,12 +53,17 @@ img { max-width: 100%; display: block; } /* pictures never overflow their box */
 }
 .nav-links a {
    color:'white'
-   text-decoration:none; 
+   text-decoration none;
 }
 
 /* STEP 4 · .logo
    Bigger than the links (1.6rem), bold, white, no underline. */
+.logo{
+   color:white;
+   font-size: 1.6rem;
+   font-weight: 700;
 
+}
 
 /* STEP 5 · .hero
    At least 70vh tall, a background colour, white text.
