@@ -32,22 +32,50 @@ h3 { font-size: 1.4rem; }
 /* PART B: write your code below this line. Each step has one job.
    The page now has a Features section: six .card boxes inside one .cards box. */
 
+
 /* STEP 1 ▸ Add a .cards rule with display: flex; and gap: 24px;
    The six cards sit side by side in one row, with a space between each. */
 
+   .cards{
+      display:flex; 
+      gap: 24px;
+   }
 /* STEP 2 ▸ Add a .card rule. Give it a background-color that stands out from your page
    (#ffffff works on a light page) and padding: 24px; so the words do not touch the edge. */
-
+.card {
+   background-color: #ffffff;
+   padding: 24px; 
+}
 /* STEP 3 ▸ In the .card rule, add border-radius: 12px; for round corners
    and box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12); so the card lifts off the page. */
+   .card {
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+   }
 
 /* STEP 4 ▸ Six cards are squashed into one row. In the .cards rule add flex-wrap: wrap;
    Now cards that do not fit move down to a new row. */
+   .cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+   }
 
 /* STEP 5 ▸ The rows are ragged: each card is as wide as its text. In the .card rule add
    flex: 1 1 300px;   (grow 1, shrink 1, start at 300px)
    Cards in a row now share it equally. The panel needs every card 250px or wider. */
+.card {
+   flex: 1 1 300px; 
+}
 
 /* STEP 6 ▸ Use your palette on the cards. In the .card rule add
    border-top: 4px solid var(--accent);  then add a .card h3 rule with
    color: var(--primary); and margin-top: 0;  Any of your own variables work. */
+
+   .card{
+      border-top: 4px solid var(--accent);
+   }
+   .card h3 {
+      color: var(--primary); 
+      margin-top: 0; 
+   }
