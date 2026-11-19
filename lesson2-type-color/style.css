@@ -19,9 +19,9 @@ img { max-width: 100%; display: block; }
 /* PART B: STEP 1 ▸ put your palette and fonts in :root */
 
 :root{
-    --primary: rgb(20, 63, 180);
+    --primary: rgb(22, 70, 199);
     --accent: #feae00; 
-    --dark: rgb(10, 26, 60);
+    --dark: rgb(4, 15, 40);
     --bg: rgb(112, 179, 209); 
     --ink: black; 
     --font-family: 'Poppins', sans-serif; 
